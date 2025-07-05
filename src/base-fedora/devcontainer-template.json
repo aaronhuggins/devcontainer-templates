@@ -1,0 +1,25 @@
+{
+    "id": "base-fedora",
+    "version": "0.1.0",
+    "name": "Base Fedora",
+    "description": "A template to create a dev container based on Fedora.",
+    "documentationURL": "https://github.com/aaronhuggins/devcontainer-templates/tree/main/src/base-fedora",
+    "licenseURL": "https://github.com/aaronhuggins/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Fedora version:",
+            "proposals": [
+                "41",
+                "42",
+                "43",
+                "latest",
+                "rawhide"
+            ],
+            "default": "latest"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}

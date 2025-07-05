@@ -1,0 +1,20 @@
+{
+    "name": "Deno",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "remoteUser": "${localEnv:USER}"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.defaultFormatter": "denoland.vscode-deno"
+            },
+            "extensions": [
+                "denoland.vscode-deno"
+            ]
+        }
+    },
+    "remoteUser": "${localEnv:USER}"
+}
