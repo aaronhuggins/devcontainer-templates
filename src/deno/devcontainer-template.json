@@ -1,0 +1,37 @@
+{
+    "id": "deno",
+    "version": "0.1.0",
+    "name": "Deno (Unofficial)",
+    "description": "A template for working Deno projects, based on Fedora.",
+    "publisher": "Aaron Huggins (@aaronhuggins)",
+    "documentationURL": "https://github.com/aaronhuggins/devcontainer-templates/tree/main/src/deno",
+    "licenseURL": "https://github.com/aaronhuggins/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Fedora version:",
+            "proposals": [
+                "41",
+                "42",
+                "43",
+                "latest",
+                "rawhide"
+            ],
+            "default": "latest"
+        },
+        "denoVariant": {
+            "type": "string",
+            "description": "Deno version/image tag:",
+            "proposals": [
+                "bin-2.2.13",
+                "bin-2.3.7",
+                "bin-2.4.0",
+                "bin"
+            ],
+            "default": "bin"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
