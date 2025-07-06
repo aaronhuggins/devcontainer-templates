@@ -1,8 +1,9 @@
 {
     "id": "base-fedora",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "name": "Base Fedora",
     "description": "A template to create a dev container based on Fedora.",
+    "publisher": "Aaron Huggins (@aaronhuggins)",
     "documentationURL": "https://github.com/aaronhuggins/devcontainer-templates/tree/main/src/base-fedora",
     "licenseURL": "https://github.com/aaronhuggins/devcontainer-templates/blob/main/LICENSE",
     "options": {
